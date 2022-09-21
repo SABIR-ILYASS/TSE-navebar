@@ -1,0 +1,83 @@
+/*header*/
+.header {
+    height: 450px ;
+    width: 100%;
+    background: rgb(161, 123, 230);
+    position: relative;
+}
+.header__texture {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+    background: url('img/telecom.jpg') center no-repeat;
+    background-size: cover;
+    z-index: 1;
+    opacity: 0.6;
+}
+.header__mask {
+    position: absolute;
+    bottom: 0;
+    background: 0 0;
+    height: 42px;
+    width: 100%;
+    z-index: 10;
+}
+
+.header__navbar {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__navbar--logo-title {
+    font-size: small;
+
+}
+.header .nav__bar--menu .header__navbar--menu-link {
+    margin-left: 40px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.header__navbar--menu-link:hover {
+    color: rgb(235, 35, 35);
+    text-decoration: underline;
+    font-size: 28px;
+    opacity: 0.6;
+}
+.header__slogan {
+    text-align: center;
+    margin-top: 50px;
+}
+.h__slogan--title {
+    color: #fff;
+    font-size: 70px;
+    text-transform: uppercase;
+    font-style: italic;
+    font-family: 'Hanalei';
+    letter-spacing: 2px;
+}
+.h__slogan-title2 {
+    color:#6041eb;
+    font-size: 40px;
+    font-style: italic;
+    font-family: "Indie Flower";
+    font-family: 'Hanalei';
+}
+.h__slogan--btn {
+    color: #fff;
+    font-size: 15px;
+    font-style: italic;
+    text-decoration: none;
+    padding: 15px 20px;
+    background: #c0392b;
+    border-radius: 20px;
+}
+.header__slogan .h__slogan--btn :hover {
+    opacity: 0.5;
+}
